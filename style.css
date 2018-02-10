@@ -1,0 +1,53 @@
+body {
+    background-image: url("http://www.norcalwater.org/wp-content/uploads/Jungle-Book.stockphoto.jpg");
+    background-size: cover;
+    background-position: center;
+    margin: 0px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+h1 {
+    font-family: 'Joti One', cursive;
+    font-size: 3em;
+    color: #DC0B00;
+    border-bottom: 3px solid #DC0B00;
+    border-right: 3px solid #DC0B00;
+    box-shadow: 4px 4px 5px #888888;
+    width: 400px;
+    transition: all 1s;
+    background-color: #FFAAAA;
+    margin-top: 10px;
+    text-align: center;
+}
+
+h1:hover {
+    transform: scale(1.1);
+}
+img {
+    width: 600px;
+    height: 400px;
+    margin: 10px;
+    transition: all 1s;
+}
+img:hover {
+    transform: scale(1.1);
+}
+h4 {
+    font-family: 'Joti One', cursive;
+    font-size: 1em;
+    color: #DC0B00;
+    border-bottom: 3px solid #DC0B00;
+    border-right: 3px solid #DC0B00;
+    box-shadow: 4px 4px 5px #888888;
+    width: 200px;
+    transition: all 1s;
+    background-color: #FFAAAA;
+    margin-top: 10px;
+    text-align: center;
+}
+h4:hover {
+    transform: scale(1.1);
+}
